@@ -1,0 +1,28 @@
+# Case 5: Multi-Trajectory Visualization
+# Multiple initial conditions to show sensitivity and attractor structure
+scenario_name = Case 5 - Multi Trajectory
+a = 0.95
+b = 0.7
+c = 0.6
+d = 3.5
+e = 0.25
+f = 0.1
+dt = 0.01
+n_steps = 80000
+transient_steps = 5000
+# Multiple initial conditions (comma-separated triplets)
+initial_conditions = 0.1,0.0,0.0;0.1,0.1,0.0;-0.1,0.0,0.1;0.0,0.1,0.1
+seed = 42
+use_gpu = false
+compute_metrics = true
+save_csv = true
+save_netcdf = true
+save_png = true
+save_gif = true
+output_dir = outputs
+animation_fps = 30
+animation_dpi = 120
+animation_frames = 180
+animation_duration = 18.0
+png_dpi = 150
+multi_trajectory = true

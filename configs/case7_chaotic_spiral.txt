@@ -1,0 +1,28 @@
+# Case 7: Chaotic Spiral
+# Modified parameters to show spiral-like chaotic behavior
+scenario_name = Case 7 - Chaotic Spiral
+a = 0.90
+b = 0.65
+c = 0.55
+d = 3.8
+e = 0.20
+f = 0.12
+dt = 0.01
+n_steps = 100000
+transient_steps = 8000
+initial_x = 0.05
+initial_y = 0.05
+initial_z = 0.1
+seed = 789
+use_gpu = false
+compute_metrics = true
+save_csv = true
+save_netcdf = true
+save_png = true
+save_gif = true
+output_dir = outputs
+animation_fps = 30
+animation_dpi = 120
+animation_frames = 200
+animation_duration = 18.0
+png_dpi = 150

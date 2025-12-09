@@ -1,0 +1,28 @@
+# Case 4: Parameter Variation Study
+# Modified parameters to explore different attractor regimes
+scenario_name = Case 4 - Parameter Variation
+a = 0.85
+b = 0.8
+c = 0.65
+d = 3.0
+e = 0.3
+f = 0.15
+dt = 0.01
+n_steps = 80000
+transient_steps = 5000
+initial_x = 0.1
+initial_y = 0.1
+initial_z = 0.0
+seed = 123
+use_gpu = false
+compute_metrics = true
+save_csv = true
+save_netcdf = true
+save_png = true
+save_gif = true
+output_dir = outputs
+animation_fps = 30
+animation_dpi = 120
+animation_frames = 180
+animation_duration = 15.0
+png_dpi = 150
