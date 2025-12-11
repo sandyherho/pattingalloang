@@ -38,3 +38,7 @@ test_outputs/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# GIF files (except in .assets/)
+*.gif
+!.assets/*.gif

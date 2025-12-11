@@ -1,12 +1,24 @@
 # `pattingalloang`: Aizawa Attractor Analysis
 
+[![DOI](https://zenodo.org/badge/1112665838.svg)](https://doi.org/10.5281/zenodo.17891089)
 [![Tests](https://github.com/sandyherho/pattingalloang/actions/workflows/tests.yml/badge.svg)](https://github.com/sandyherho/pattingalloang/actions/workflows/tests.yml)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![PyPI version](https://img.shields.io/pypi/v/pattingalloang.svg)](https://pypi.org/project/pattingalloang/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+[![JAX](https://img.shields.io/badge/JAX-%23FF6F00.svg?logo=google&logoColor=white)](https://github.com/google/jax)
+[![NumPy](https://img.shields.io/badge/NumPy-%23013243.svg?logo=numpy&logoColor=white)](https://numpy.org/)
+[![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?logo=scipy&logoColor=white)](https://scipy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?logo=Matplotlib&logoColor=black)](https://matplotlib.org/)
+[![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![netCDF4](https://img.shields.io/badge/netCDF4-%23004B87.svg)](https://unidata.github.io/netcdf4-python/)
+
 JAX-accelerated Python library for simulating and analyzing the Aizawa strange attractor with comprehensive chaos metrics.
+
+<p align="center">
+  <img src=".assets/anim.gif" alt="Aizawa Attractor Animation" width="600">
+</p>
 
 ## Governing Equations
 
@@ -23,12 +35,6 @@ $$\dot{z} = c + az - \frac{z^3}{3} - (x^2 + y^2)(1 + ez) + fzx^3$$
 ```bash
 pip install pattingalloang          # From PyPI
 pip install jax[cuda12]             # Optional: GPU support
-```
-
-**From source:**
-```bash
-git clone https://github.com/sandyherho/pattingalloang.git
-cd pattingalloang && pip install .
 ```
 
 ## Quick Start
@@ -87,9 +93,9 @@ print(f"λ₁={metrics['lyapunov_1']:.4f}, D_KY={metrics['kaplan_yorke_dim']:.4f
 - **PNG:** High-resolution static visualizations
 - **GIF:** Animated 3D rotation
 
-## Dependencies
+## Naming
 
-`jax` `jaxlib` `numpy` `scipy` `matplotlib` `pandas` `netCDF4` `Pillow` `tqdm`
+This library is named after **Karaeng Pattingalloang III** (1600–1654), an eminent scholar-statesman of the Gowa-Tallo Sultanate in South Sulawesi, Indonesia. Serving as Grand Vizier from 1639 until his death, Pattingalloang was renowned throughout the early modern maritime world for his exceptional intellectual pursuits. Contemporary European accounts document his mastery of multiple languages, his extensive library of Western scientific and cartographic works, and his sophisticated engagement with mathematics, astronomy, and natural philosophy. His scholarly reputation earned him the epithet "Father of Makassar" among European observers. This library honors his legacy as a patron of cross-cultural scientific exchange during the Age of Exploration.
 
 ## License
 
