@@ -1,0 +1,28 @@
+# Case 8: Double Loop
+# Parameters tuned to emphasize double-loop structure in the attractor
+scenario_name = Case 8 - Double Loop
+a = 0.98
+b = 0.75
+c = 0.58
+d = 3.2
+e = 0.28
+f = 0.08
+dt = 0.008
+n_steps = 100000
+transient_steps = 6000
+initial_x = 0.15
+initial_y = 0.05
+initial_z = 0.0
+seed = 456
+use_gpu = false
+compute_metrics = true
+save_csv = true
+save_netcdf = true
+save_png = true
+save_gif = true
+output_dir = outputs
+animation_fps = 30
+animation_dpi = 120
+animation_frames = 200
+animation_duration = 16.0
+png_dpi = 150

@@ -8,6 +8,7 @@ Usage:
     pattingalloang case3              # Long trajectory
     pattingalloang case4              # Parameter variation
     pattingalloang case5              # Multi-trajectory
+    pattingalloang case8              # Double loop
     pattingalloang --all              # Run all cases
     pattingalloang case1 --gpu        # Use GPU acceleration
     pattingalloang --config path.txt  # Custom config
@@ -337,8 +338,8 @@ def main():
     parser.add_argument(
         'case',
         nargs='?',
-        choices=['case1', 'case2', 'case3', 'case4', 'case5', 'case6', 'case7'],
-        help='Test case to run (case1-7)'
+        choices=['case1', 'case2', 'case3', 'case4', 'case5', 'case6', 'case7', 'case8'],
+        help='Test case to run (case1-8)'
     )
     
     parser.add_argument(
@@ -435,6 +436,7 @@ def main():
             'case5': 'case5_multi_trajectory',
             'case6': 'case6_butterfly_wings',
             'case7': 'case7_chaotic_spiral',
+            'case8': 'case8_double_loop',
         }
         
         cfg_name = case_map[args.case]

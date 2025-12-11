@@ -1,6 +1,6 @@
 # Makefile for pattingalloang
 
-.PHONY: install dev test clean run-all run-case1 run-case2 run-case3 run-case4 run-case5 run-case6 run-case7 help
+.PHONY: install dev test clean run-all run-case1 run-case2 run-case3 run-case4 run-case5 run-case6 run-case7 run-case8 help
 
 help:
 	@echo "pattingalloang - Aizawa Attractor Analysis"
@@ -21,6 +21,7 @@ help:
 	@echo "  make run-case5   - Multi-trajectory"
 	@echo "  make run-case6   - Butterfly wings"
 	@echo "  make run-case7   - Chaotic spiral"
+	@echo "  make run-case8   - Double loop"
 	@echo ""
 	@echo "GPU acceleration:"
 	@echo "  make run-case1-gpu - Run case1 with GPU"
@@ -60,6 +61,9 @@ run-case6:
 
 run-case7:
 	pattingalloang --config configs/case7_chaotic_spiral.txt
+
+run-case8:
+	pattingalloang --config configs/case8_double_loop.txt
 
 run-case1-gpu:
 	pattingalloang case1 --gpu
