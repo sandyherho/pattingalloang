@@ -1,4 +1,4 @@
-# `pattingalloang`: Aizawa Attractor Analysis
+# `pattingalloang`: A JAX-Accelerated Framework for the Aizawa Strange Attractor
 
 [![DOI](https://zenodo.org/badge/1112665838.svg)](https://doi.org/10.5281/zenodo.17891089)
 [![Tests](https://github.com/sandyherho/pattingalloang/actions/workflows/tests.yml/badge.svg)](https://github.com/sandyherho/pattingalloang/actions/workflows/tests.yml)
@@ -20,7 +20,7 @@ JAX-accelerated Python library for simulating and analyzing the Aizawa strange a
 > *This library is named after **Karaeng Pattingalloang III** (1600–1654), an eminent scholar-statesman of the Gowa-Tallo Sultanate in South Sulawesi, Indonesia. Serving as Grand Vizier from 1639 until his death, Pattingalloang was renowned throughout the early modern maritime world for his exceptional intellectual pursuits. Contemporary European accounts document his mastery of multiple languages, his extensive library of Western scientific and cartographic works, and his sophisticated engagement with mathematics, astronomy, and natural philosophy. His scholarly reputation earned him the epithet "Father of Makassar" among European observers. This library honors his legacy as a patron of cross-cultural scientific exchange during the Age of Exploration.*
 
 <p align="center">
-  <img src=".assets/anim.gif" alt="Aizawa Attractor Animation" width="600">
+  <img src="https://github.com/sandyherho/pattingalloang/blob/main/.assets/anim.gif" alt="Aizawa Attractor Animation" width="600">
 </p>
 
 ## Governing Equations
@@ -104,7 +104,7 @@ MIT © Sandy H. S. Herho
 
 ```bibtex
 @software{herho2025_pattingalloang,
-  title   = {pattingalloang: A Python library for Aizawa attractor analysis},
+  title   = {{\texttt{pattingalloang}: A JAX-Accelerated Framework for the Aizawa Strange Attractor}},
   author  = {Herho, Sandy H. S.},
   year    = {2025},
   url     = {https://github.com/sandyherho/pattingalloang}
