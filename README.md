@@ -194,9 +194,3 @@ MIT © Sandy H. S. Herho
   url     = {https://github.com/sandyherho/pattingalloang}
 }
 ```
-
-## References
-
-- Aizawa, Y. (1982). Global aspects of the dissipative dynamical systems. 
-- Sprott, J. C. (2010). Elegant Chaos: Algebraically Simple Chaotic Flows.
-- Kantz, H., & Schreiber, T. (2004). Nonlinear Time Series Analysis.

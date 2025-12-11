@@ -27,7 +27,7 @@ Email: sandy.herho@email.ucr.edu
 License: MIT
 """
 
-__version__ = "0.1.0"
+__version__ = "0.0.1"
 __author__ = "Sandy H. S. Herho"
 __email__ = "sandy.herho@email.ucr.edu"
 __license__ = "MIT"

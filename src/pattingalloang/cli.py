@@ -32,7 +32,7 @@ def print_header():
     """Print ASCII art header."""
     print("\n" + "=" * 70)
     print(" " * 15 + "pattingalloang: Aizawa Attractor Analyzer")
-    print(" " * 25 + "Version 0.1.0")
+    print(" " * 25 + "Version 0.0.1")
     print("=" * 70)
     print("\n  JAX-Accelerated Chaotic Dynamics Analysis")
     print("  Lyapunov Exponents | Fractal Dimensions | Strange Attractors")

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pattingalloang"
-version = "0.1.0"
+version = "0.0.1"
 description = "JAX-Accelerated Aizawa Attractor Analysis with Comprehensive Chaos Metrics"
 authors = ["Sandy H. S. Herho <sandy.herho@email.ucr.edu>"]
 license = "MIT"
