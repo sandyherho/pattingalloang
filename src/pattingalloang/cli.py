@@ -8,7 +8,8 @@ Usage:
     pattingalloang case3              # Long trajectory
     pattingalloang case4              # Parameter variation
     pattingalloang case5              # Multi-trajectory
-    pattingalloang case8              # Double loop
+    pattingalloang case6              # Butterfly wings
+    pattingalloang case7              # Chaotic spiral
     pattingalloang --all              # Run all cases
     pattingalloang case1 --gpu        # Use GPU acceleration
     pattingalloang --config path.txt  # Custom config
@@ -33,7 +34,7 @@ def print_header():
     """Print ASCII art header."""
     print("\n" + "=" * 70)
     print(" " * 15 + "pattingalloang: Aizawa Attractor Analyzer")
-    print(" " * 25 + "Version 0.0.1")
+    print(" " * 25 + "Version 0.0.2")
     print("=" * 70)
     print("\n  JAX-Accelerated Chaotic Dynamics Analysis")
     print("  Lyapunov Exponents | Fractal Dimensions | Strange Attractors")
@@ -338,8 +339,8 @@ def main():
     parser.add_argument(
         'case',
         nargs='?',
-        choices=['case1', 'case2', 'case3', 'case4', 'case5', 'case6', 'case7', 'case8'],
-        help='Test case to run (case1-8)'
+        choices=['case1', 'case2', 'case3', 'case4', 'case5', 'case6', 'case7'],
+        help='Test case to run (case1-7)'
     )
     
     parser.add_argument(
@@ -436,7 +437,6 @@ def main():
             'case5': 'case5_multi_trajectory',
             'case6': 'case6_butterfly_wings',
             'case7': 'case7_chaotic_spiral',
-            'case8': 'case8_double_loop',
         }
         
         cfg_name = case_map[args.case]

@@ -45,7 +45,7 @@ pip install jax[cuda12]             # Optional: GPU support
 **CLI:**
 ```bash
 pattingalloang case1              # Standard Aizawa
-pattingalloang --all              # Run all 8 cases
+pattingalloang --all              # Run all 7 cases
 pattingalloang case1 --gpu        # GPU acceleration
 ```
 
@@ -76,7 +76,6 @@ print(f"λ₁={metrics['lyapunov_1']:.4f}, D_KY={metrics['kaplan_yorke_dim']:.4f
 | 5 | Multi-Trajectory | 80K | Sensitivity to initial conditions |
 | 6 | Butterfly Wings | 120K | Wing structure emphasis |
 | 7 | Chaotic Spiral | 100K | Spiral-like dynamics |
-| 8 | Double Loop | 100K | Double-loop structure |
 
 ## Chaos Metrics
 
